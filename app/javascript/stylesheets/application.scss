@@ -1,0 +1,72 @@
+@import '~bootstrap/scss/bootstrap';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // color: #274D7E;
+    font-family:  'arial black',serif; 
+}
+
+
+li {
+    list-style: none;
+}
+
+.logo-tree {
+    height: 80px;
+    width: 80px;
+}
+
+header {
+    // text-align: center;
+}
+
+.logo-duck {
+    height: 80px;
+    width: 80px;
+}
+
+header h1 {
+    height: 80px;
+    // background-color: #91B6E6;
+    color: #1A75EF;
+    // font-weight: bold;
+    line-height: 80px;
+}
+
+header nav {
+    height: 50px;
+    background-color: #1A75EF;
+}
+
+.header-nav {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.header-nav li {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+main {
+    width: 100%;
+    min-height: 540px;
+    background-color: white;
+}
+
+footer {
+    background-color: #1A75EF;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    line-height: 50px;
+}

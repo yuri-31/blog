@@ -5,12 +5,38 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  
+    <script src="https://kit.fontawesome.com/3b16e23ba6.js" crossorigin="anonymous"></script>
+    <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <%= yield %>
+    <header>
+      <div class="d-flex ml-3">
+        <a href="/">
+          <%= image_tag 'my-tree.png', class: 'logo-tree' %>
+        </a>
+        <h1 class="px-2">Make Me Like Japan?</h1>
+        <a href="/">
+          <%= image_tag 'my-duck.png', class: 'logo-duck' %>
+        </a>
+      </div>
+      <nav>
+        <ul class="header-nav">
+          <li>Immigration</li>
+          <li>Gallery</li>
+          <li>Portfolio</li>
+          <li>Blog</li>
+          <li>Diary</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <%= yield %>
+    </main>
+    <footer>
+      <p>©️ All rights reserved.</p>
+    </footer>
   </body>
 </html>
