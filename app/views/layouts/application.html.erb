@@ -21,6 +21,11 @@
         <a href="/">
           <%= image_tag 'my-duck.png', class: 'logo-duck' %>
         </a>
+        <% if admin_signed_in? %>
+        <div class="signout-btn ml-auto mr-4">
+          <%= link_to 'sign out', destroy_admin_session_path, method: :delete, class: 'btn btn-primary' %>
+        </div>
+        <% end %>
       </div>
       <nav>
         <ul class="header-nav">

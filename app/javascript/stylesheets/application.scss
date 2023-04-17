@@ -24,16 +24,16 @@ header {
 }
 
 .logo-duck {
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
 }
 
 header h1 {
-    height: 80px;
+    height: 70px;
     // background-color: #91B6E6;
     color: #1A75EF;
     // font-weight: bold;
-    line-height: 80px;
+    line-height: 70px;
 }
 
 header nav {
@@ -52,6 +52,10 @@ header nav {
     font-size: 18px;
     font-weight: bold;
     line-height: 50px;
+}
+
+.signout-btn {
+    line-height: 70px;
 }
 
 main {
