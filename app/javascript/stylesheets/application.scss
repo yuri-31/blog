@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     // color: #274D7E;
-    font-family:  'arial black',serif; 
+    // font-family:  'arial black',serif; 
 }
 
 
@@ -20,7 +20,7 @@ li {
 }
 
 header {
-    // text-align: center;
+    font-family:  'arial black',serif; 
 }
 
 .logo-duck {
@@ -58,6 +58,29 @@ main {
     width: 100%;
     min-height: 540px;
     background-color: white;
+    color: #8D8D8D;
+}
+
+.top-main-box {
+    background-color: #F1F1F1;
+    border-radius: 12px;
+}
+
+.profile-box {
+    // border: solid black 3px;
+    padding: 20px;
+    background-color: #E3EFFF;
+    border-radius: 12px;
+}
+
+.profile-img-container {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-image: url(../../assets/images/hitch2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
 }
 
 footer {
@@ -65,6 +88,7 @@ footer {
     height: 50px;
     color: white;
     text-align: center;
+    font-family:  'arial black',serif; 
 }
 
 footer p {
